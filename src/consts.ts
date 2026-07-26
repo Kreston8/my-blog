@@ -1,8 +1,8 @@
 // 站点基础信息：用于 Header、SEO、RSS、sitemap 与页脚。
-export const SITE_TITLE = "LogFlow Theme";
-export const SITE_DESCRIPTION = "A compact Astro theme for writing and publishing.";
+export const SITE_TITLE = "柯士栋的博客";
+export const SITE_DESCRIPTION = "写代码，也写生活。士之栋梁，始于足下。";
 export const SITE_URL = "https://example.com";
-export const COPYRIGHT_NAME = "LogFlow Theme";
+export const COPYRIGHT_NAME = "柯士栋";
 
 // 静态页面标题与概述：同时用于页面标题区域和 SEO description。
 export const PAGE_COPY = {
@@ -50,7 +50,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     label: "GitHub",
-    href: "https://github.com/kevynf/logflow-theme",
+    href: "https://github.com/kreston8",
     icon: "social/github",
   },
 ] as const;
@@ -59,10 +59,10 @@ export const SOCIAL_LINKS = [
 export const HOME = {
   avatar: {
     src: "/favicon.svg",
-    alt: "LogFlow Theme avatar",
+    alt: "Kreston8 avatar",
   },
-  motto: "Build in public.",
-  description: "一个窄版、紧凑的 Astro 博客主题。",
+  motto: "数据库·开发·AI·运维·思考",
+  description: "写代码，也写生活。士之栋梁，始于足下。",
   recentPostsLimit: 6,
 } as const;
 
@@ -70,8 +70,8 @@ export const HOME = {
 export const GH_CONTRIBUTE = {
   title: "GitHub 活跃度",
   description: "最近一年的开源贡献记录",
-  username: "kevynf",
-  profileUrl: "https://github.com/kevynf",
+  username: "Kreston8",
+  profileUrl: "https://github.com/kreston8",
   errorMessage: "GitHub 贡献图暂时不可用。",
 } as const;
 
