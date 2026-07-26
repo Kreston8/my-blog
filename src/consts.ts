@@ -1,7 +1,7 @@
 // 站点基础信息：用于 Header、SEO、RSS、sitemap 与页脚。
 export const SITE_TITLE = "柯士栋的博客";
 export const SITE_DESCRIPTION = "写代码，也写生活。士之栋梁，始于足下。";
-export const SITE_URL = "https://example.com";
+export const SITE_URL = "https://kreston8.xyz";
 export const COPYRIGHT_NAME = "柯士栋";
 
 // 静态页面标题与概述：同时用于页面标题区域和 SEO description。
