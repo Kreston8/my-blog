@@ -53,6 +53,16 @@ export const SOCIAL_LINKS = [
     href: "https://github.com/kreston8",
     icon: "social/github",
   },
+  {
+    label: "Email",
+    href: "mailto:kreston8@163.com",
+    icon: "social/email",
+  },
+  {
+    label: "RSS",
+    href: "/rss.xml",
+    icon: "social/rss",
+  },
 ] as const;
 
 // 首页个人信息与内容数量。
