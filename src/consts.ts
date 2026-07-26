@@ -96,12 +96,12 @@ export { FRIEND_LINKS } from "./config/friend-links";
 
 // 评论系统配置，当前提供方为 giscus。
 export const COMMENTS = {
-  enabled: false,
+  enabled: true,
   provider: "giscus",
-  repo: "owner/repository",
-  repoId: "",
+  repo: "Kreston8/my-blog",
+  repoId: "R_kgDOTjO1RQ",
   category: "Announcements",
-  categoryId: "",
+  categoryId: "DIC_kwDOTjO1Rc4DB_Zg",
   mapping: "pathname",
   themeLight: "light_protanopia",
   themeDark: "transparent_dark",
