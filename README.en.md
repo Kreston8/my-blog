@@ -21,8 +21,8 @@ A compact, content-first Astro blog theme for writing, personal sites, and techn
 ## Quick Start
 
 ```bash
-git clone https://github.com/kevynf/logflow-theme.git
-cd logflow-theme
+git clone git@github.com:Kreston8/my-blog.git
+cd my-blog
 npm install
 npm run dev
 ```

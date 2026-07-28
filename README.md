@@ -22,8 +22,8 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/kevynf/logflow-theme.git
-cd logflow-theme
+git clone git@github.com:Kreston8/my-blog.git
+cd my-blog
 npm install
 npm run dev
 ```
