@@ -20,7 +20,7 @@ const { title, description, pubDate, updatedDate, heroImage, collection, tags = 
       <div class="meta"><span>发布于 <FormattedDate date={pubDate} /></span>{updatedDate && <span>更新于 <FormattedDate date={updatedDate} /></span>}<span>约 {estimateReadingMinutes(body)} 分钟</span></div>
       {tags.length > 0 && <div class="tags">{tags.map((tag) => <a href={withBase(tagPath(tag))}>#{tag}</a>)}</div>}
     </header>
-    {heroImage && <div class="hero-image"><Image width={840} height={420} src={heroImage} alt={title} /></div>}
+    {heroImage && <div class="hero-image"><Image width={720} height={360} src={heroImage} alt={title} /></div>}
     <div class="prose content-prose"><slot />{enableComments && <CommentSection />}</div>
   </article>
 </SiteLayout>
@@ -31,4 +31,5 @@ const { title, description, pubDate, updatedDate, heroImage, collection, tags = 
   h1 { min-width:0; margin:0; font-size:var(--text-3xl); line-height:var(--line-height-tight); letter-spacing:0; overflow-wrap:anywhere; }
   .description { margin:.45rem 0 0; color:var(--text-secondary); font-size:var(--text-sm); } .meta,.tags { display:flex; margin-top:.55rem; flex-wrap:wrap; gap:.35rem .8rem; color:var(--text-muted); font-size:var(--text-xs); } .tags { margin-top:.35rem; } .tags a { text-decoration:none; }
   .hero-image { margin-bottom:1.4rem; } .hero-image img { width:100%; }
+  .hero-image {width: var(--reading-max-width); max-width: 100%; margin: 0 auto;}
 </style>
